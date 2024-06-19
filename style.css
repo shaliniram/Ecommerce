@@ -167,3 +167,73 @@ body {
   width: 100%;
   margin-bottom: 10px;;
 }
+
+
+#product1{
+  text-align: center;
+}
+
+#product1 .pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 15px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+} 
+
+#product1 .pro:hover{
+  box-shadow: 10px 10px 55px rgba(70, 62,221,0.1);
+}
+
+
+
+#product1 .pro img{
+  width: 100%;
+  border-radius: 20px;;
+}
+
+
+#product1 .pro .des{
+  padding-top: 10px;;
+ text-align: start;
+}
+#product1 .pro span{
+  font-size: 14px;
+  padding: 5px 0px;
+  color: grey;
+
+}
+
+#product1 .pro .des h5{
+  font-size: 14px;
+  padding: 5px 0px;
+  color: black;
+}
+
+
+#product1 .pro .star{
+  font-size: 14px;
+  color: rgb(236, 203, 13);
+}
+
+#product1 .pro .des h4{
+  font-size: 18px;
+  padding: 5px 0px;
+  color: #088178;
+}
+
+#product1 .pro .cart{
+  font-size: 18px;
+  color: #088178;
+  background-color: #c7f0ecde;
+  border-radius: 50px;
+  padding: 12px;
+  position:absolute;
+  right: 10px;
+  bottom: 10px;
+}
